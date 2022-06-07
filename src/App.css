@@ -1,38 +1,137 @@
-.App {
+.container
+{
+  width: 317px;
+  margin: auto auto;
+  background: #1A1B21;
+
+  
+}
+
+
+img{
+
+  width: 317px;
+  height: 317px;
+}
+
+.name
+{
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
   text-align: center;
+  
+}
+.label
+{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 13px;
+text-align: center;
+margin: 0%;
+color: #F3BF99;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.label-1
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+text-align: center;
+margin: 0%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+color: #F5F5F5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-between;
+  padding: 10px;
+ 
 
-.App-link {
-  color: #61dafb;
 }
+.Email-btn
+{
+  padding: 9px 13px 9px 11px;
+  gap: 6px;
+  
+  width: 115px;
+  height: 34px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.Link-btn
+{padding: 9px 13px 9px 11px;
+  gap: 6px;
+  color: #FFFFFF;
+  background: #5093E2;
+  width: 115px;
+  height: 34px;
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.about
+{
+  width: 317px;
+height: 290px;
+margin: auto auto;
+background: #1A1B21;
+color: #FFFFFF;
+}
+.about-head
+{
+  margin: 0% 0%;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+ 
+}
+.head{
+ padding-left: 36px;
+ padding-right: 34px;
+ padding-top: 20px;
+ padding-bottom: 24px;
+
+}
+.about-head > p
+{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+}
+.interest > p
+{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #DCDCDC;
+}
+.interest > h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+}
+.footer
+{
+  background: grey;
+border-radius: 0px 0px 10px 10px;
+width: 317px;
+height: 50px;
+margin: auto auto;
 }
